@@ -1,0 +1,66 @@
+.wrapper {
+  position: relative;
+  cursor: pointer;
+  counter-increment: answerStyle;
+
+  &::before {
+    content: counter(answerStyle, upper-alpha);
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  .background {
+    position: relative;
+    max-width: 405px;
+    max-height: 72px;
+
+    @media screen and (max-width: 865px) {
+      max-width: 320px;
+      max-height: 56px;
+
+      &>svg {
+        width: 320px;
+        height: 56px;
+      }
+    }
+
+    .normal {
+      stroke-width: 1px;
+      fill: var(--color-white);
+      stroke: var(--color-grey);
+    }
+
+    .selected {
+      stroke-width: 1px;
+      fill: var(--color-quaternary);
+      stroke: var(--color-primary);
+    }
+
+    .correct {
+      stroke-width: 1px;
+      fill: var(--color-green-inactive);
+      stroke: var(--color-green);
+    }
+
+    .wrong {
+      stroke-width: 1px;
+      fill: var(--color-red-inactive);
+      stroke: var(--color-red);
+    }
+  }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    color: var(--color-black);
+    font-size: 20px;
+  }
+}

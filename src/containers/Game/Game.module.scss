@@ -1,0 +1,93 @@
+.parent {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "question rewards"
+    ". rewards"
+    "answers rewards";
+  height: 100vh;
+  background-color: var(--color-grey-inactive);
+}
+
+.rewards {
+  grid-area: rewards;
+  background-color: var(--color-white);
+}
+
+.question {
+  grid-area: question;
+  text-align: left;
+  padding: 15vh 0 0 80px;
+}
+
+.answers {
+  grid-area: answers;
+  padding: 0 0 13vh 80px;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 785px) {
+  .question {
+    padding: 15vh 0 0 40px;
+  }
+  
+  .answers {
+    padding: 0 0 13vh 40px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+
+  .parent {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "question"
+    "."
+    "answers";
+  }
+
+  .question {
+    text-align: center;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 10vh 0 0 0;
+  }
+  
+  .answers {
+    grid-area: answers;
+    padding-bottom: 10vh;
+    margin: 0 auto;
+    padding: 0 0 10vh 0;
+  }
+
+  .rewards {
+    display: none;
+    position: absolute;
+    background-color: var(--color-grey-inactive);
+    z-index: 2;
+
+    &.active {
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      display: block;
+    }
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    z-index: 5;
+  }
+}

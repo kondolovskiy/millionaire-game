@@ -1,0 +1,268 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "answers": [
+        {
+          "answer": "Paris",
+          "isCorrect": true
+        },
+        {
+          "answer": "Rome",
+          "isCorrect": false
+        },
+        {
+          "answer": "Madrid",
+          "isCorrect": false
+        },
+        {
+          "answer": "Berlin",
+          "isCorrect": false
+        }
+      ],
+      "reward": 500
+    },
+    {
+      "question": "Which of these elements are gases at room temperature?",
+      "answers": [
+        {
+          "answer": "Sodium",
+          "isCorrect": false
+        },
+        {
+          "answer": "Iron",
+          "isCorrect": false
+        },
+        {
+          "answer": "Neon",
+          "isCorrect": true
+        },
+        {
+          "answer": "Silicon",
+          "isCorrect": false
+        }
+      ],
+      "reward": 1000
+    },
+    {
+      "question": "Which of these countries are in Africa?",
+      "answers": [
+        {
+          "answer": "Egypt",
+          "isCorrect": true
+        },
+        {
+          "answer": "Brazil",
+          "isCorrect": false
+        },
+        {
+          "answer": "India",
+          "isCorrect": false
+        },
+        {
+          "answer": "China",
+          "isCorrect": false
+        }
+      ],
+      "reward": 2000
+    },
+    {
+      "question": "What colors aren't in the flag of Italy?",
+      "answers": [
+        {
+          "answer": "Red",
+          "isCorrect": false
+        },
+        {
+          "answer": "Green",
+          "isCorrect": false
+        },
+        {
+          "answer": "White",
+          "isCorrect": false
+        },
+        {
+          "answer": "Blue",
+          "isCorrect": true
+        }
+      ],
+      "reward": 4000
+    },
+    {
+      "question": "Which of these are prime numbers?",
+      "answers": [
+        {
+          "answer": "31",
+          "isCorrect": true
+        },
+        {
+          "answer": "33",
+          "isCorrect": false
+        },
+        {
+          "answer": "36",
+          "isCorrect": false
+        },
+        {
+          "answer": "39",
+          "isCorrect": false
+        }
+      ],
+      "reward": 8000
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "answers": [
+        {
+          "answer": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "answer": "Charles Dickens",
+          "isCorrect": false
+        },
+        {
+          "answer": "Jane Austen",
+          "isCorrect": false
+        },
+        {
+          "answer": "Ernest Hemingway",
+          "isCorrect": false
+        }
+      ],
+      "reward": 16000
+    },
+    {
+      "question": "Which planets in our solar system don't have rings?",
+      "answers": [
+        {
+          "answer": "Mercury",
+          "isCorrect": true
+        },
+        {
+          "answer": "Saturn",
+          "isCorrect": false
+        },
+        {
+          "answer": "Uranus",
+          "isCorrect": false
+        },
+        {
+          "answer": "Neptune",
+          "isCorrect": false
+        }
+      ],
+      "reward": 32000
+    },
+    {
+      "question": "What are not the primary colors?",
+      "answers": [
+        {
+          "answer": "Red",
+          "isCorrect": false
+        },
+        {
+          "answer": "Blue",
+          "isCorrect": false
+        },
+        {
+          "answer": "Green",
+          "isCorrect": true
+        },
+        {
+          "answer": "Yellow",
+          "isCorrect": false
+        }
+      ],
+      "reward": 64000
+    },
+    {
+      "question": "Which of these animals are mammals?",
+      "answers": [
+        {
+          "answer": "Shark",
+          "isCorrect": false
+        },
+        {
+          "answer": "Dolphin",
+          "isCorrect": true
+        },
+        {
+          "answer": "Crocodile",
+          "isCorrect": false
+        },
+        {
+          "answer": "Snake",
+          "isCorrect": false
+        }
+      ],
+      "reward": 125000
+    },
+    {
+      "question": "Which of these languages is primarily spoken in South America?",
+      "answers": [
+        {
+          "answer": "Spanish",
+          "isCorrect": true
+        },
+        {
+          "answer": "French",
+          "isCorrect": false
+        },
+        {
+          "answer": "English",
+          "isCorrect": false
+        },
+        {
+          "answer": "German",
+          "isCorrect": false
+        }
+      ],
+      "reward": 250000
+    },
+    {
+      "question": "In which movies does the character Harry Potter appear?",
+      "answers": [
+        {
+          "answer": "Harry Potter and the Sorcerer's Stone",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Lord of the Rings: The Fellowship of the Ring",
+          "isCorrect": false
+        },
+        {
+          "answer": "Harry Potter and the House of Dragons",
+          "isCorrect": false
+        },
+        {
+          "answer": "Harry Potter and the Cup of Fire",
+          "isCorrect": false
+        }
+      ],
+      "reward": 500000
+    },
+    {
+      "question": "Which of these instruments is brass instruments?",
+      "answers": [
+        {
+          "answer": "Violin",
+          "isCorrect": false
+        },
+        {
+          "answer": "Trumpet",
+          "isCorrect": true
+        },
+        {
+          "answer": "Guitar",
+          "isCorrect": false
+        },
+        {
+          "answer": "Harp",
+          "isCorrect": false
+        }
+      ],
+      "reward": 1000000
+    }
+  ]
+}
