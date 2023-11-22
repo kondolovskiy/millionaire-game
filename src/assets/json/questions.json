@@ -23,7 +23,7 @@
       "reward": 500
     },
     {
-      "question": "Which of these elements are gases at room temperature?",
+      "question": "Which of these elements is gas at room temperature?",
       "answers": [
         {
           "answer": "Sodium",
@@ -45,7 +45,7 @@
       "reward": 1000
     },
     {
-      "question": "Which of these countries are in Africa?",
+      "question": "Which country is in Africa?",
       "answers": [
         {
           "answer": "Egypt",
@@ -67,7 +67,7 @@
       "reward": 2000
     },
     {
-      "question": "What colors aren't in the flag of Italy?",
+      "question": "What color isn't in the flag of Italy?",
       "answers": [
         {
           "answer": "Red",
@@ -89,7 +89,7 @@
       "reward": 4000
     },
     {
-      "question": "Which of these are prime numbers?",
+      "question": "Which number is prime?",
       "answers": [
         {
           "answer": "31",
@@ -155,7 +155,7 @@
       "reward": 32000
     },
     {
-      "question": "What are not the primary colors?",
+      "question": "What is not the primary color?",
       "answers": [
         {
           "answer": "Red",
@@ -177,7 +177,7 @@
       "reward": 64000
     },
     {
-      "question": "Which of these animals are mammals?",
+      "question": "Which animals is mammal?",
       "answers": [
         {
           "answer": "Shark",
@@ -199,7 +199,7 @@
       "reward": 125000
     },
     {
-      "question": "Which of these languages is primarily spoken in South America?",
+      "question": "Which language is primarily spoken in South America?",
       "answers": [
         {
           "answer": "Spanish",
@@ -221,22 +221,22 @@
       "reward": 250000
     },
     {
-      "question": "In which movies does the character Harry Potter appear?",
+      "question": "What is the most populated country is the world?",
       "answers": [
         {
-          "answer": "Harry Potter and the Sorcerer's Stone",
+          "answer": "Canada",
+          "isCorrect": false
+        },
+        {
+          "answer": "China",
           "isCorrect": true
         },
         {
-          "answer": "The Lord of the Rings: The Fellowship of the Ring",
+          "answer": "Japan",
           "isCorrect": false
         },
         {
-          "answer": "Harry Potter and the House of Dragons",
-          "isCorrect": false
-        },
-        {
-          "answer": "Harry Potter and the Cup of Fire",
+          "answer": "Nigeria",
           "isCorrect": false
         }
       ],
