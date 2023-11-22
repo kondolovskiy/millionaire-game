@@ -10,9 +10,12 @@ import store from './stores'
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const baseName = window.location.pathname.split('/')[1];
+
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={`/${baseName}`}>
       <Provider store={store}>
         <App />
       </Provider>
