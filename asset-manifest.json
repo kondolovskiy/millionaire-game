@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kondolovskiy/millionaire-game/static/css/main.12c5d3e2.css",
-    "main.js": "/kondolovskiy/millionaire-game/static/js/main.a4981c2e.js",
-    "static/js/787.d06f4432.chunk.js": "/kondolovskiy/millionaire-game/static/js/787.d06f4432.chunk.js",
-    "static/media/hand.png": "/kondolovskiy/millionaire-game/static/media/hand.db4d6f4e02e7ae1edee3.png",
-    "index.html": "/kondolovskiy/millionaire-game/index.html",
-    "static/media/close.svg": "/kondolovskiy/millionaire-game/static/media/close.67d0a39e8f2afba171e53b6f3531670b.svg",
-    "static/media/menu.svg": "/kondolovskiy/millionaire-game/static/media/menu.2e4db3a986ee50d80ed0a331fba7eda5.svg",
-    "main.12c5d3e2.css.map": "/kondolovskiy/millionaire-game/static/css/main.12c5d3e2.css.map",
-    "main.a4981c2e.js.map": "/kondolovskiy/millionaire-game/static/js/main.a4981c2e.js.map",
-    "787.d06f4432.chunk.js.map": "/kondolovskiy/millionaire-game/static/js/787.d06f4432.chunk.js.map"
+    "main.css": "/millionaire-game/static/css/main.12c5d3e2.css",
+    "main.js": "/millionaire-game/static/js/main.72e4f76b.js",
+    "static/js/787.d06f4432.chunk.js": "/millionaire-game/static/js/787.d06f4432.chunk.js",
+    "static/media/hand.png": "/millionaire-game/static/media/hand.db4d6f4e02e7ae1edee3.png",
+    "index.html": "/millionaire-game/index.html",
+    "static/media/close.svg": "/millionaire-game/static/media/close.67d0a39e8f2afba171e53b6f3531670b.svg",
+    "static/media/menu.svg": "/millionaire-game/static/media/menu.2e4db3a986ee50d80ed0a331fba7eda5.svg",
+    "main.12c5d3e2.css.map": "/millionaire-game/static/css/main.12c5d3e2.css.map",
+    "main.72e4f76b.js.map": "/millionaire-game/static/js/main.72e4f76b.js.map",
+    "787.d06f4432.chunk.js.map": "/millionaire-game/static/js/787.d06f4432.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12c5d3e2.css",
-    "static/js/main.a4981c2e.js"
+    "static/js/main.72e4f76b.js"
   ]
 }
